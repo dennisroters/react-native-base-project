@@ -13,7 +13,7 @@ class HomeScreen extends React.Component {
       <Content padder style={s.content}>
         <Icon name="md-home" size={30} color="#900" />
         <Text>Home Screen</Text>
-        <Button primary onPress={() => alert('button pressed')}>
+        <Button light onPress={() => alert('button pressed')}>
           <Text>Test</Text>
         </Button>
       </Content>
