@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Button, Container, Content, Text} from "native-base";
+import Icon from 'react-native-vector-icons/Ionicons';
 
 class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -10,6 +11,7 @@ class HomeScreen extends React.Component {
   render() {
     return (
       <Content padder style={s.content}>
+        <Icon name="md-home" size={30} color="#900" />
         <Text>Home Screen</Text>
         <Button primary onPress={() => alert('button pressed')}>
           <Text>Test</Text>
